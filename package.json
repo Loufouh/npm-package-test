@@ -13,6 +13,10 @@
 	"scripts": {
 		"test": "vitest"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Loufouh/npm-package-test.git"
+	},
 	"devDependencies": {
 		"@types/node": "^25.0.3",
 		"typescript": "^5.9.3",
