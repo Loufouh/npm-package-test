@@ -1,5 +1,5 @@
 {
-	"name": "package-test",
+	"name": "@loufouh/package-test",
 	"version": "1.0.0",
 	"description": "Test de Package npm privé, avec tests",
 	"license": "ISC",
