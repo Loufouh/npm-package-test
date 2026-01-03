@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import Vector from "../src/Vector";
+import { Vector } from "../src/Vector.js";
 
 describe("Vector.add", () => {
 	it("should add correctly two vectors", () => {
