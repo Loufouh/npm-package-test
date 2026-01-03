@@ -7,4 +7,8 @@ export default class Vector {
 	add(other: Vector): Vector {
 		return new Vector(this.x + other.x, this.y + other.y);
 	}
+
+	subtract(other: Vector): Vector {
+		return new Vector(this.x - other.x, this.y - other.y);
+	}
 }
