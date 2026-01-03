@@ -1,0 +1,21 @@
+{
+	"name": "package-test",
+	"version": "0.1.0",
+	"description": "Test de Package npm privé, avec tests",
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@types/node": "^25.0.3",
+		"typescript": "^5.9.3",
+		"vitest": "^4.0.16"
+	}
+}
